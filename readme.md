@@ -34,7 +34,7 @@ Console.WriteLine(d1);
 ## Syntax for Variable Declaration
 ```csharp
 type variableName = value;
-
+```
 
 ### Example
 int myNum = 5;
@@ -56,7 +56,7 @@ int myNum = 15;
 myNum = 20; // myNum is now 20
 Console.WriteLine(myNum); // Outputs 20
 
-## Other Data Types and Examples
+##              Other Data Types and Examples
 Here are more examples of other data types:
 
 int myNum = 5;             // Integer
@@ -65,7 +65,7 @@ char myLetter = 'D';       // Character
 bool myBool = true;        // Boolean
 string myText = "Hello";   // String
 
-## Constants
+##                                                          Constants
 If you want to prevent a variable from being changed, use the const keyword:
 
 
@@ -77,32 +77,32 @@ You can display variables in a string using concatenation:
 string name = "John";
 Console.WriteLine("Hi " + name); // Outputs "Hi John"
 
-## C# Type Casting
+##                                                      C# Type Casting
 Type casting is when you assign a value of one data type to another type.
 
-####Implicit Casting (automatically) - 
+#### Implicit Casting (automatically) - 
 converting a smaller type to a larger type size
 char -> int -> long -> float -> double
 
-####Example
+#### Example
 int myInt = 9;
 double myDouble = myInt;       // Automatic casting: int to double
 Console.WriteLine(myInt);      // Outputs 9
 Console.WriteLine(myDouble);   // Outputs 9
 
-###Explicit Casting (manually) - 
+### Explicit Casting (manually) - 
 converting a larger type to a smaller size type
 double -> float -> long -> int -> char
 
-####Example
+#### Example
 double myDouble = 9.78;
 int myInt = (int) myDouble;    // Manual casting: double to int
 
 Console.WriteLine(myDouble);   // Outputs 9.78
 Console.WriteLine(myInt);      // Outputs 9
 
-##Get User Input
-####Example
+##                                          Get User Input
+#### Example
 // Type your username and press enter
 Console.WriteLine("Enter username:");
 // Create a string variable and get user input from the keyboard and store it in the variable
@@ -110,7 +110,12 @@ string userName = Console.ReadLine();
 // Print the value of the variable (userName), which will display the input value
 Console.WriteLine("Username is: " + userName);
 
+##                                     User Input and Numbers
+Console.WriteLine("Enter your age:");
+int age = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Your age is: " + age);
 
+##                                     C# Conditions and If Statements
 
 
 
