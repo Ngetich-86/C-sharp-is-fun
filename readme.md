@@ -36,7 +36,7 @@ Console.WriteLine(d1);
 type variableName = value;
 
 
-Example
+### Example
 int myNum = 5;
 Console.WriteLine(myNum); // Outputs 5
 
@@ -49,14 +49,14 @@ Console.WriteLine(myNum); // Outputs 15
 Case-Sensitivity in C#
 C# is case-sensitive, meaning that the variables MyNum, mynum, and myNUM are all different variables.
 
-Overwriting Variable Values
+## Overwriting Variable Values
 When you assign a new value to an existing variable, it overwrites the previous value:
 
 int myNum = 15;
 myNum = 20; // myNum is now 20
 Console.WriteLine(myNum); // Outputs 20
 
-Other Data Types and Examples
+## Other Data Types and Examples
 Here are more examples of other data types:
 
 int myNum = 5;             // Integer
@@ -65,7 +65,7 @@ char myLetter = 'D';       // Character
 bool myBool = true;        // Boolean
 string myText = "Hello";   // String
 
-Constants
+## Constants
 If you want to prevent a variable from being changed, use the const keyword:
 
 
@@ -77,8 +77,38 @@ You can display variables in a string using concatenation:
 string name = "John";
 Console.WriteLine("Hi " + name); // Outputs "Hi John"
 
+## C# Type Casting
+Type casting is when you assign a value of one data type to another type.
 
+####Implicit Casting (automatically) - 
+converting a smaller type to a larger type size
+char -> int -> long -> float -> double
 
+####Example
+int myInt = 9;
+double myDouble = myInt;       // Automatic casting: int to double
+Console.WriteLine(myInt);      // Outputs 9
+Console.WriteLine(myDouble);   // Outputs 9
+
+###Explicit Casting (manually) - 
+converting a larger type to a smaller size type
+double -> float -> long -> int -> char
+
+####Example
+double myDouble = 9.78;
+int myInt = (int) myDouble;    // Manual casting: double to int
+
+Console.WriteLine(myDouble);   // Outputs 9.78
+Console.WriteLine(myInt);      // Outputs 9
+
+##Get User Input
+####Example
+// Type your username and press enter
+Console.WriteLine("Enter username:");
+// Create a string variable and get user input from the keyboard and store it in the variable
+string userName = Console.ReadLine();
+// Print the value of the variable (userName), which will display the input value
+Console.WriteLine("Username is: " + userName);
 
 
 
