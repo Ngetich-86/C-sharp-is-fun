@@ -561,14 +561,171 @@ static void Main(string[] args)
 ```
 ### C# - What is OOP?
 
+#### Classes and Objects
 
+### Create a Class
+To create a class, use the class keyword:
+```csharp 
+class Car 
+{
+  string color = "red";
+}
+```
+### Create an Object
+An object is created from a class. We have already created the class named Car, so now we can use this to create objects.
+To create an object of Car, specify the class name, followed by the object name, and use the keyword **new**:
 
+Create an object called "myObj" and use it to print the value of color:
+```csharp
+class Car 
+{
+  string color = "red";
 
+  static void Main(string[] args)
+  {
+    Car myObj = new Car();
+    Console.WriteLine(myObj.color);
+  }
+}
+```
+### Multiple Objects
+You can create multiple objects of one class:
 
+#### Create two objects of Car:
+```csharp
+class Car
+{
+  string color = "red";
+  static void Main(string[] args)
+  {
+    Car myObj1 = new Car();
+    Car myObj2 = new Car();
+    Console.WriteLine(myObj1.color);
+    Console.WriteLine(myObj2.color);
+  }
+}
+```
+### Class Members
+Fields and methods inside classes are often referred to as "Class Members":
 
+Create a Car class with three class members: two fields and one method.
+```csharp
+// The class
+class MyClass
+{
+  // Class members
+  string color = "red";        // field
+  int maxSpeed = 200;          // field
+  public void fullThrottle()   // method
+  {
+    Console.WriteLine("The car is going as fast as it can!");
+  }
+}
+```
 
+### Fields
+```csharp
+class Car 
+{
+  string color = "red";
+  int maxSpeed = 200;
 
+  static void Main(string[] args)
+  {
+    Car myObj = new Car();
+    Console.WriteLine(myObj.color);
+    Console.WriteLine(myObj.maxSpeed);
+  }
+}
+```
 
+You can also leave the fields blank, and modify them when creating the object:
+```csharp
+class Car 
+{
+  string color;
+  int maxSpeed;
+
+  static void Main(string[] args)
+  {
+    Car myObj = new Car();
+    myObj.color = "red";
+    myObj.maxSpeed = 200;
+    Console.WriteLine(myObj.color);
+    Console.WriteLine(myObj.maxSpeed);
+  }
+}
+```
+
+### This is especially useful when creating multiple objects of one class:
+```csharp
+class Car 
+{
+  string model;
+  string color;
+  int year;
+
+  static void Main(string[] args)
+  {
+    Car Ford = new Car();
+    Ford.model = "Mustang";
+    Ford.color = "red";
+    Ford.year = 1969;
+
+    Car Opel = new Car();
+    Opel.model = "Astra";
+    Opel.color = "white";
+    Opel.year = 2005;
+
+    Console.WriteLine(Ford.model);
+    Console.WriteLine(Opel.model);
+  }
+}
+```
+
+### Object Methods
+Methods normally belong to a class, and they define how an object of a class behaves.
+Just like with fields, you can access methods with the **dot syntax**. However, note that the method must be **public**. And remember that we use the name of the method followed by **two parentheses () and a semicolon** ; to call **(execute)** the method:
+
+```csharp
+class Car 
+{
+  string color;                 // field
+  int maxSpeed;                 // field
+  public void fullThrottle()    // method
+  {
+    Console.WriteLine("The car is going as fast as it can!"); 
+  }
+
+  static void Main(string[] args)
+  {
+    Car myObj = new Car();
+    myObj.fullThrottle();  // Call the method
+  }
+}
+```
+
+### Use Multiple Classes
+```csharp
+class Program
+{
+  static void Main(string[] args)
+  {
+    Car Ford = new Car();
+    Ford.model = "Mustang";
+    Ford.color = "red";
+    Ford.year = 1969;
+
+    Car Opel = new Car();
+    Opel.model = "Astra";
+    Opel.color = "white";
+    Opel.year = 2005;
+
+    Console.WriteLine(Ford.model);
+    Console.WriteLine(Opel.model);
+  }
+}
+```
 
 
 
