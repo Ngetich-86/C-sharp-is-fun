@@ -377,6 +377,190 @@ foreach (int i in numbers)
   Console.WriteLine(i);
 } 
 ```
+## C# Methods
+A method is a block of code which only runs when it is called.
+You can pass data, known as parameters, into a method.
+
+### Create a method inside the Program class:
+```csharp
+class Program
+{
+  static void MyMethod() 
+  {
+    // code to be executed
+  }
+}
+```
+
+**MyMethod()** is the name of the method
+**static** means that the method belongs to the Program class and not an object of the Program class. 
+**void** means that this method does not have a return value. You will learn more about return values later in this chapter
+
+### Call a Method
+Inside Main(), call the myMethod() method:
+```csharp
+static void MyMethod() 
+{
+  Console.WriteLine("I just got executed!");
+}
+
+static void Main(string[] args)
+{
+  MyMethod();
+}
+
+// Outputs "I just got executed!"
+```
+
+### other example
+```csharp
+static void MyMethod() 
+{
+  Console.WriteLine("I just got executed!");
+}
+
+static void Main(string[] args)
+{
+  MyMethod();
+  MyMethod();
+  MyMethod();
+}
+
+// I just got executed!
+// I just got executed!
+// I just got executed!
+```
+## C# Method Parameters and Arguments
+```csharp
+static void MyMethod(string fname) 
+{
+  Console.WriteLine(fname + " Refsnes");
+}
+
+static void Main(string[] args)
+{
+  MyMethod("Liam");
+  MyMethod("Jenny");
+  MyMethod("Anja");
+}
+
+// Liam Refsnes
+// Jenny Refsnes
+// Anja Refsnes
+```
+
+### Multiple params
+```csharp
+static void MyMethod(string fname, int age) 
+{
+  Console.WriteLine(fname + " is " + age);
+}
+
+static void Main(string[] args)
+{
+  MyMethod("Liam", 5);
+  MyMethod("Jenny", 8);
+  MyMethod("Anja", 31);
+}
+
+// Liam is 5
+// Jenny is 8
+// Anja is 31
+```
+
+### Default Parameter Value
+You can also use a default parameter value, by using the equals sign (=).
+If we call the method without an argument, it uses the default value ("Norway"):
+
+```csharp
+static void MyMethod(string country = "Norway") 
+{
+  Console.WriteLine(country);
+}
+
+static void Main(string[] args)
+{
+  MyMethod("Sweden");
+  MyMethod("India");
+  MyMethod();
+  MyMethod("USA");
+}
+
+// Sweden
+// India
+// Norway
+// USA
+```
+
+### Return Values
+```csharp
+static int MyMethod(int x) 
+{
+  return 5 + x;
+}
+
+static void Main(string[] args)
+{
+  Console.WriteLine(MyMethod(3));
+}
+
+// Outputs 8 (5 + 3)
+```
+### another example
+```csharp
+static int MyMethod(int x, int y) 
+{
+  return x + y;
+}
+
+static void Main(string[] args)
+{
+  Console.WriteLine(MyMethod(5, 3));
+}
+
+// Outputs 8 (5 + 3)
+```
+### Named Arguments
+It is also possible to send arguments with the key: value syntax.
+That way, the order of the arguments does not matter:
+
+```csharp
+static void MyMethod(string child1, string child2, string child3) 
+{
+  Console.WriteLine("The youngest child is: " + child3);
+}
+
+static void Main(string[] args)
+{
+  MyMethod(child3: "John", child1: "Liam", child2: "Liam");
+}
+
+// The youngest child is: John
+```
+
+### Method Overloading
+With method overloading, multiple methods can have the same name with different parameters:
+```csharp
+static int PlusMethodInt(int x, int y)
+{
+  return x + y;
+}
+
+static double PlusMethodDouble(double x, double y)
+{
+  return x + y;
+}
+
+static void Main(string[] args)
+{
+  int myNum1 = PlusMethodInt(8, 5);
+  double myNum2 = PlusMethodDouble(4.3, 6.26);
+  Console.WriteLine("Int: " + myNum1);
+  Console.WriteLine("Double: " + myNum2);
+}
+```
+### C# - What is OOP?
+
 
 
 
