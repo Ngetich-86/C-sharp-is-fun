@@ -727,6 +727,69 @@ class Program
 }
 ```
 
+# General Structure of a C# Program
+A namespace contains types such as classes, structs, interfaces, enumerations, and delegates, or other namespaces.
+
+Classes - The class is a template for objects. A class defines object properties including a valid range of values, and a default value. A class also describes object behavior.
+
+Structs - A struct type is a value type that is typically used to encapsulate small groups of related variables.
+
+Namespaces - The namespace keyword is used to declare a scope. This namespace scope lets you organize code and gives you a way to create globally unique types.
+
+Interfaces - An interface contains only the signatures of methods, properties, events, or indexers. A class or struct that implements the interface must implement the members of the interface that are specified in the interface definition.
+
+Enums - An enumeration type (or enum type) is a value type defined by a set of named constants of the underlying integral numeric type.
+
+Delegates - A delegate is a reference type that can be used to encapsulate a named or an anonymous method. Delegates are similar to function pointers in C and C++.
+
+## Main() and command-line arguments
+The Main method is the entry point of a C# application. When the application is started, the Main method is the first method that is invoked.
+```csharp
+class TestClass
+{
+    static void Main(string[] args)
+    {
+        // Display the number of command line arguments.
+        Console.WriteLine(args.Length);
+    }
+}
+```
+
+The following list shows the most common Main declarations:
+```csharp
+static void Main() { }
+static int Main() { }
+static void Main(string[] args) { }
+static int Main(string[] args) { }
+static async Task Main() { }
+static async Task<int> Main() { }
+static async Task Main(string[] args) { }
+static async Task<int> Main(string[] args) { }
+```
+### Top-level statements - programs without Main methods
+Top-level statements allows you to write executable code directly at the root of a file, eliminating the need for wrapping your code in a class or method. This means you can create programs without the ceremony of a Program class and a Main method.
+
+Traditional Main Method
+```csharp
+using System;
+
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
+```
+Top-Level Statements
+```csharp
+using System;
+Console.WriteLine("Hello, World!");
+```
+## Type system
 
 
 
