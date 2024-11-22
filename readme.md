@@ -790,7 +790,51 @@ using System;
 Console.WriteLine("Hello, World!");
 ```
 ## Type system
+is a foundational aspect of the language, ensuring type safety, consistency, and interoperability. It defines how data is classified and manipulated, enforcing rules on how values of various types interact. C# uses a strongly typed, statically typed, and unified type system.
+### Specifying types in variable declarations
+```csharp
+// Declaration only:
+float temperature;
+string name;
+MyClass myClass;
 
+// Declaration with initializers (four examples):
+char firstLetter = 'C';
+var limit = 3;
+int[] source = [0, 1, 2, 3, 4, 5];
+var query = from item in source
+            where item <= limit
+            select item;
+```
+## Namespaces
+A namespace is a collection of classes, interfaces, structs, enums, and delegates. It is a way to organize your code and prevent name collisions with other types. The .NET class library is a collection of namespaces, each designed for a specific purpose. For example, the System namespace contains classes that define commonly used value and reference data types, events, and event handlers.
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+### Common Namespaces in C#
+System: Provides basic functionality like console input/output, data types, etc.
+System.Collections.Generic: Contains generic collections like List<T> and Dictionary<TKey, TValue>.
+System.IO: Handles file and stream input/output.
+System.Net: Deals with network operations.
+System.Linq: Supports querying data using LINQ.
+
+# Introduction to classes
+A class is a blueprint for creating objects (a particular data structure), providing initial values for state (member variables or fields), and implementations of behavior (member functions or methods). The class is a template for creating objects. A class defines object properties including a valid range of values, and a default value. A class also describes object behavior.
+```csharp
+class MyClass
+{
+    // Class members
+    string color = "red";        // field
+    int maxSpeed = 200;          // field
+    public void fullThrottle()   // method
+    {
+        Console.WriteLine("The car is going as fast as it can!");
+    }
+}
+```
 
 
 
