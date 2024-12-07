@@ -1,0 +1,15 @@
+D:\codes\C-sharp-is-fun\demotest\bin\Debug\net8.0\demotest.exe
+D:\codes\C-sharp-is-fun\demotest\bin\Debug\net8.0\demotest.deps.json
+D:\codes\C-sharp-is-fun\demotest\bin\Debug\net8.0\demotest.runtimeconfig.json
+D:\codes\C-sharp-is-fun\demotest\bin\Debug\net8.0\demotest.dll
+D:\codes\C-sharp-is-fun\demotest\bin\Debug\net8.0\demotest.pdb
+D:\codes\C-sharp-is-fun\demotest\obj\Debug\net8.0\demotest.GeneratedMSBuildEditorConfig.editorconfig
+D:\codes\C-sharp-is-fun\demotest\obj\Debug\net8.0\demotest.AssemblyInfoInputs.cache
+D:\codes\C-sharp-is-fun\demotest\obj\Debug\net8.0\demotest.AssemblyInfo.cs
+D:\codes\C-sharp-is-fun\demotest\obj\Debug\net8.0\demotest.csproj.CoreCompileInputs.cache
+D:\codes\C-sharp-is-fun\demotest\obj\Debug\net8.0\demotest.sourcelink.json
+D:\codes\C-sharp-is-fun\demotest\obj\Debug\net8.0\demotest.dll
+D:\codes\C-sharp-is-fun\demotest\obj\Debug\net8.0\refint\demotest.dll
+D:\codes\C-sharp-is-fun\demotest\obj\Debug\net8.0\demotest.pdb
+D:\codes\C-sharp-is-fun\demotest\obj\Debug\net8.0\demotest.genruntimeconfig.cache
+D:\codes\C-sharp-is-fun\demotest\obj\Debug\net8.0\ref\demotest.dll
