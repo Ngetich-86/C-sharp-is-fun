@@ -1,0 +1,15 @@
+D:\codes\C-sharp-is-fun\fibonacci\bin\Debug\net8.0\fibonacci.exe
+D:\codes\C-sharp-is-fun\fibonacci\bin\Debug\net8.0\fibonacci.deps.json
+D:\codes\C-sharp-is-fun\fibonacci\bin\Debug\net8.0\fibonacci.runtimeconfig.json
+D:\codes\C-sharp-is-fun\fibonacci\bin\Debug\net8.0\fibonacci.dll
+D:\codes\C-sharp-is-fun\fibonacci\bin\Debug\net8.0\fibonacci.pdb
+D:\codes\C-sharp-is-fun\fibonacci\obj\Debug\net8.0\fibonacci.GeneratedMSBuildEditorConfig.editorconfig
+D:\codes\C-sharp-is-fun\fibonacci\obj\Debug\net8.0\fibonacci.AssemblyInfoInputs.cache
+D:\codes\C-sharp-is-fun\fibonacci\obj\Debug\net8.0\fibonacci.AssemblyInfo.cs
+D:\codes\C-sharp-is-fun\fibonacci\obj\Debug\net8.0\fibonacci.csproj.CoreCompileInputs.cache
+D:\codes\C-sharp-is-fun\fibonacci\obj\Debug\net8.0\fibonacci.sourcelink.json
+D:\codes\C-sharp-is-fun\fibonacci\obj\Debug\net8.0\fibonacci.dll
+D:\codes\C-sharp-is-fun\fibonacci\obj\Debug\net8.0\refint\fibonacci.dll
+D:\codes\C-sharp-is-fun\fibonacci\obj\Debug\net8.0\fibonacci.pdb
+D:\codes\C-sharp-is-fun\fibonacci\obj\Debug\net8.0\fibonacci.genruntimeconfig.cache
+D:\codes\C-sharp-is-fun\fibonacci\obj\Debug\net8.0\ref\fibonacci.dll
