@@ -39,3 +39,7 @@ dotnet add package Microsoft.AspNetCore.Mvc.Formatters.Xml.SystemTextJson
 dotnet add package Microsoft.AspNetCore.Mvc.Formatters.Xml.NewtonsoftJson
 dotnet add package Microsoft.AspNetCore.Mvc.Formatters.Xml
 
+# Add the MongoDB NuGet package
+````bash
+dotnet add package MongoDB.Driver
+````
