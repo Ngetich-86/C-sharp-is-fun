@@ -21,5 +21,11 @@ namespace Backend.Services
 
         public async Task CreateAsync(User user) =>
             await _users.InsertOneAsync(user);
+
+        public async Task UpdateAsync(User user) =>
+            await _users.ReplaceOneAsync(u => u.Id == user.Id, user);
+
+        public async Task DeleteAsync(string id) =>
+            await _users.DeleteOneAsync(u => u.Id == id);
     }
 }

@@ -15,6 +15,9 @@ namespace Backend.Models
         [BsonElement("password")]
         public string Password { get; set; }
 
+        [BsonElement("passwordSalt")]
+        public string PasswordSalt { get; set; }
+
         [BsonElement("email")]
         public string Email { get; set; }
 

@@ -37,3 +37,6 @@ D:\codes\C-sharp-is-fun\SocialMediaApp\Backend\obj\Debug\net8.0\refint\Backend.d
 D:\codes\C-sharp-is-fun\SocialMediaApp\Backend\obj\Debug\net8.0\Backend.pdb
 D:\codes\C-sharp-is-fun\SocialMediaApp\Backend\obj\Debug\net8.0\Backend.genruntimeconfig.cache
 D:\codes\C-sharp-is-fun\SocialMediaApp\Backend\obj\Debug\net8.0\ref\Backend.dll
+D:\codes\C-sharp-is-fun\SocialMediaApp\Backend\bin\Debug\net8.0\Backend.staticwebassets.endpoints.json
+D:\codes\C-sharp-is-fun\SocialMediaApp\Backend\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\codes\C-sharp-is-fun\SocialMediaApp\Backend\obj\Debug\net8.0\staticwebassets\msbuild.Backend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
