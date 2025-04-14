@@ -18,7 +18,7 @@ builder.Services.Configure<MongoDbSettings>(builder.Configuration.GetSection("Mo
 
 // Configure JWT Authentication
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");
-var key = Encoding.ASCII.GetBytes(jwtSettings["Secret"]);
+var key = Encoding.ASCII.GetBytes(jwtSettings["Secret"] ?? throw new InvalidOperationException("JWT Secret is not configured"));
 
 builder.Services.AddAuthentication(x =>
 {
@@ -46,6 +46,19 @@ builder.Services.AddScoped<AuthService>();
 
 var app = builder.Build();
 
+// Test MongoDB connection at startup
+var dbContext = app.Services.GetRequiredService<DatabaseContext>();
+Console.WriteLine("Testing MongoDB connection...");
+try
+{
+    var users = dbContext.Users;
+    Console.WriteLine("MongoDB connection successful!");
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"MongoDB connection failed: {ex.Message}");
+}
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -61,4 +74,5 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+Console.WriteLine("Server is running on Port 5001");
 app.Run();
