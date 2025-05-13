@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "bgMCaWqSSZ5sgnWlqYcNtE2wGe29bfaq9hGmso6k9zw=",
+  "Source": "Cinnamon",
+  "BasePath": "_content/Cinnamon",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

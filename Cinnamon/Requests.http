@@ -1,0 +1,27 @@
+### Get all todos
+GET http://localhost:5152/api/todo
+
+### Get one todo by ID
+GET http://localhost:5152/api/todo/1
+
+### Create new todo
+POST http://localhost:5152/api/todo
+Content-Type: application/json
+
+{
+  "title": "Learn .NET Minimal API",
+  "isDone": false
+}
+
+### Update todo by ID
+PUT http://localhost:5000/api/todo/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "title": "Learn .NET Minimal API (updated)",
+  "isDone": true
+}
+
+### Delete todo by ID
+DELETE http://localhost:5000/api/todo/1
