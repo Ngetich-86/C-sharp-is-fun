@@ -1,0 +1,15 @@
+D:\codes\C-sharp-is-fun\3. C# OOP\ClassesAndObjects\obj\Debug\net9.0\ClassesAndObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\codes\C-sharp-is-fun\3. C# OOP\ClassesAndObjects\obj\Debug\net9.0\ClassesAndObjects.AssemblyInfoInputs.cache
+D:\codes\C-sharp-is-fun\3. C# OOP\ClassesAndObjects\obj\Debug\net9.0\ClassesAndObjects.AssemblyInfo.cs
+D:\codes\C-sharp-is-fun\3. C# OOP\ClassesAndObjects\obj\Debug\net9.0\ClassesAndObjects.csproj.CoreCompileInputs.cache
+D:\codes\C-sharp-is-fun\3. C# OOP\ClassesAndObjects\obj\Debug\net9.0\ClassesAndObjects.sourcelink.json
+D:\codes\C-sharp-is-fun\3. C# OOP\ClassesAndObjects\bin\Debug\net9.0\ClassesAndObjects.exe
+D:\codes\C-sharp-is-fun\3. C# OOP\ClassesAndObjects\bin\Debug\net9.0\ClassesAndObjects.deps.json
+D:\codes\C-sharp-is-fun\3. C# OOP\ClassesAndObjects\bin\Debug\net9.0\ClassesAndObjects.runtimeconfig.json
+D:\codes\C-sharp-is-fun\3. C# OOP\ClassesAndObjects\bin\Debug\net9.0\ClassesAndObjects.dll
+D:\codes\C-sharp-is-fun\3. C# OOP\ClassesAndObjects\bin\Debug\net9.0\ClassesAndObjects.pdb
+D:\codes\C-sharp-is-fun\3. C# OOP\ClassesAndObjects\obj\Debug\net9.0\ClassesAndObjects.dll
+D:\codes\C-sharp-is-fun\3. C# OOP\ClassesAndObjects\obj\Debug\net9.0\refint\ClassesAndObjects.dll
+D:\codes\C-sharp-is-fun\3. C# OOP\ClassesAndObjects\obj\Debug\net9.0\ClassesAndObjects.pdb
+D:\codes\C-sharp-is-fun\3. C# OOP\ClassesAndObjects\obj\Debug\net9.0\ClassesAndObjects.genruntimeconfig.cache
+D:\codes\C-sharp-is-fun\3. C# OOP\ClassesAndObjects\obj\Debug\net9.0\ref\ClassesAndObjects.dll
