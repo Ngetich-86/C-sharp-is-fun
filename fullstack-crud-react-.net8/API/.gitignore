@@ -1,0 +1,14 @@
+
+
+# Archivos de paquetes NuGet
+packages/
+bin/
+obj/
+app.db*
+
+
+
+
+
+
+
